@@ -1,9 +1,9 @@
 const bulb = document.querySelector("#bulb");
 
 bulb.addEventListener("click", function () {
-  if (this.src.includes("bulb-off.jpg")) {
-    this.src = "bulb-on.jpg";
+  if (this.src.includes("bulbOff.png")) {
+    this.src = "bulbOn.png";
   } else {
-    this.src = "bulb-off.jpg";
+    this.src = "bulbOff.png";
   }
 });
